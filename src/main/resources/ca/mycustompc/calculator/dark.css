@@ -1,0 +1,41 @@
+VBox{
+    -fx-background-color: #2A3950;
+    -fx-font-family: 'Segoe UI';
+}
+
+Button {
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-border-color: transparent;
+}
+
+.mainButtons {
+    -fx-background-color: #41436A;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}
+.mainButtons:hover {-fx-background-color: #984063;}
+.mainButtons:pressed {-fx-background-color: #41436A;}
+
+.otherButtons {-fx-background-color: #984063;}
+.otherButtons:hover {-fx-background-color: #41436A;}
+.otherButtons:pressed {-fx-background-color: #984063;}
+
+.specialButtons {-fx-background-color: #FE9677;}
+.specialButtons:hover {-fx-background-color: #d64f59;}
+.specialButtons:pressed {-fx-background-color: #FE9677;}
+
+#themeSwitch{
+    -fx-pref-height: 35px;
+    -fx-pref-width: 35px;
+    -fx-background-radius: 50%;
+    -fx-background-color: #FE9677;
+}
+
+#themeSwitch:hover{-fx-background-color: #d64f59;}
+
+.defaultLabel{-fx-text-fill: white;}
+.activatedLabel{
+    -fx-text-fill: #FE9677;
+    -fx-font-weight: bold;
+}
